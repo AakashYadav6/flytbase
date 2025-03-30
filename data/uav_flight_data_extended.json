@@ -1,0 +1,104 @@
+{
+    "drones": [
+        {
+            "Drone_ID": 1,
+            "Drone_Name": "Drone_Alpha",
+            "Waypoints": [
+                {"X": 50, "Y": 50, "Z": 10, "Time": "01:15"},
+                {"X": 55, "Y": 55, "Z": 12, "Time": "01:20"},
+                {"X": 60, "Y": 60, "Z": 15, "Time": "01:25"},
+                {"X": 65, "Y": 65, "Z": 18, "Time": "01:30"}
+            ],
+            "Scenario_Description": "Conflict-Free - Far from primary mission"
+        },
+        {
+            "Drone_ID": 2,
+            "Drone_Name": "Drone_Beta",
+            "Waypoints": [
+                {"X": 60, "Y": 65, "Z": 15, "Time": "01:20"},
+                {"X": 62, "Y": 67, "Z": 16, "Time": "01:25"},
+                {"X": 64, "Y": 69, "Z": 18, "Time": "01:30"},
+                {"X": 66, "Y": 72, "Z": 20, "Time": "01:35"}
+            ],
+            "Scenario_Description": "Conflict-Free - Different airspace and time"
+        },
+        {
+            "Drone_ID": 3,
+            "Drone_Name": "Drone_Gamma",
+            "Waypoints": [
+                {"X": 10, "Y": 15, "Z": 5, "Time": "01:01"},
+                {"X": 15, "Y": 20, "Z": 8, "Time": "01:05"},
+                {"X": 20, "Y": 25, "Z": 10, "Time": "01:10"},
+                {"X": 25, "Y": 30, "Z": 12, "Time": "01:15"}
+            ],
+            "Scenario_Description": "Conflict Detected - Close to primary mission in space and time"
+        },
+        {
+            "Drone_ID": 4,
+            "Drone_Name": "Drone_Delta",
+            "Waypoints": [
+                {"X": 30, "Y": 35, "Z": 10, "Time": "01:04"},
+                {"X": 35, "Y": 40, "Z": 12, "Time": "01:09"},
+                {"X": 40, "Y": 45, "Z": 15, "Time": "01:14"},
+                {"X": 45, "Y": 50, "Z": 18, "Time": "01:19"}
+            ],
+            "Scenario_Description": "Conflict Detected - Overlapping flight window and near in space"
+        },
+        {
+            "Drone_ID": 5,
+            "Drone_Name": "Drone_Epsilon",
+            "Waypoints": [
+                {"X": 50, "Y": 50, "Z": 10, "Time": "01:30"},
+                {"X": 52, "Y": 53, "Z": 12, "Time": "01:32"},
+                {"X": 55, "Y": 56, "Z": 14, "Time": "01:34"},
+                {"X": 58, "Y": 60, "Z": 16, "Time": "01:36"}
+            ],
+            "Scenario_Description": "Same location, different time - Possible future conflict"
+        },
+        {
+            "Drone_ID": 6,
+            "Drone_Name": "Drone_Zeta",
+            "Waypoints": [
+                {"X": 30, "Y": 35, "Z": 8, "Time": "01:04"},
+                {"X": 35, "Y": 40, "Z": 10, "Time": "01:09"},
+                {"X": 40, "Y": 45, "Z": 12, "Time": "01:14"},
+                {"X": 45, "Y": 50, "Z": 14, "Time": "01:19"}
+            ],
+            "Scenario_Description": "Same time, different altitude - Near miss in 3D"
+        },
+        {
+            "Drone_ID": 7,
+            "Drone_Name": "Drone_Eta",
+            "Waypoints": [
+                {"X": 20, "Y": 30, "Z": 10, "Time": "01:10"},
+                {"X": 25, "Y": 35, "Z": 12, "Time": "01:12"},
+                {"X": 30, "Y": 40, "Z": 15, "Time": "01:14"},
+                {"X": 35, "Y": 45, "Z": 18, "Time": "01:16"}
+            ],
+            "Scenario_Description": "Partial overlap of paths - Some intersections"
+        },
+        {
+            "Drone_ID": 8,
+            "Drone_Name": "Drone_Theta",
+            "Waypoints": [
+                {"X": 10, "Y": 20, "Z": 5, "Time": "01:05"},
+                {"X": 15, "Y": 25, "Z": 8, "Time": "01:10"},
+                {"X": 20, "Y": 30, "Z": 10, "Time": "01:15"},
+                {"X": 25, "Y": 35, "Z": 12, "Time": "01:20"}
+            ],
+            "Scenario_Description": "Drone stalling in a zone - Holding at waypoints"
+        },
+        {
+            "Drone_ID": 9,
+            "Drone_Name": "Drone_Kappa",
+            "Waypoints": [
+                {"X": 5, "Y": 10, "Z": 5, "Time": "01:02"},
+                {"X": 10, "Y": 15, "Z": 8, "Time": "01:06"},
+                {"X": 15, "Y": 20, "Z": 10, "Time": "01:09"},
+                {"X": 20, "Y": 25, "Z": 12, "Time": "01:13"}
+            ],
+            "Scenario_Description": "Multiple drone intersection - Chain collision risk"
+        }
+    ]
+}
+
