@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+# flytbase
+>>>>>>> 2af0a53d (Added UAV conflict detection system)
 # UAV Flight Conflict Detection System
 
 ## Overview
